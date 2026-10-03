@@ -1,0 +1,22 @@
+{
+  "name": "@ds/storybook-vue",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "storybook dev -p 6007 --no-open",
+    "build": "storybook build"
+  },
+  "dependencies": {
+    "@ds/vue": "workspace:*",
+    "vue": "^3.5.43"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "^2.1.1",
+    "@pandacss/vite": "^2.1.1",
+    "@storybook/vue3-vite": "^10.6.1",
+    "@vitejs/plugin-vue": "^6.0.9",
+    "storybook": "^10.6.1",
+    "vite": "^8.3.2"
+  }
+}

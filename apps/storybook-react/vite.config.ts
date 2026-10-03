@@ -1,0 +1,10 @@
+import pandacss from '@pandacss/vite'
+import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  plugins: [pandacss(), react()],
+  server: {
+    watch: { ignored: ['!**/node_modules/@ds/**'] },
+  },
+})

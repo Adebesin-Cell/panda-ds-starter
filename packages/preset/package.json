@@ -1,0 +1,15 @@
+{
+  "name": "@ds/preset",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@ds/tokens": "workspace:*"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "^2.1.1"
+  }
+}
